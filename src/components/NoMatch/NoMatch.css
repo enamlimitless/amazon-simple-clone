@@ -1,0 +1,22 @@
+.nomatch{
+    background: rgb(248, 235, 56);
+    height: 100vh;
+    text-align: center;
+    color: red;
+    overflow:hidden;
+}
+.nomatch-style{
+    margin-top: 15rem;
+}
+.nomatch-style h2{font-size: 6rem;}
+.nomatch-style h1{font-size: 5rem;}
+.nomatch-btn{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    display: inline-block;
+    margin-top: 3rem;
+}
