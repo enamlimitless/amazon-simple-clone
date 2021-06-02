@@ -1,0 +1,30 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    max-height: 40rem;
+    min-width: 10rem;
+    background-color: #fff;
+    z-index: 1;
+    align-items: center;
+}
+.product-info{
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+.product-rating{
+    display: flex;
+}
+.price{font-size: 2rem;}
+.product> img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: contain;
+    margin-bottom: 1.5rem;
+}
+.btn{
+    background: #f0c401;
+    border: .1rem solid #f0c401;
+    color: #333;
+    padding: .4rem 1rem;
+    cursor: pointer;
+}
